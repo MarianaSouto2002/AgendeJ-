@@ -28,7 +28,7 @@ h2 {
 }
 
 /* Inputs com placeholders */
-input[type="email"], input[type="password"] {
+input {
     width: 100%;
     padding: 10px 15px;
     margin: 8px 0;
@@ -41,18 +41,18 @@ input[type="email"], input[type="password"] {
     color: #ffffff; /* Cor do texto */
 }
 
-input[type="email"]::placeholder, input[type="password"]::placeholder {
+input::placeholder {
     color: #ffffff; /* Cor do placeholder */
     opacity: 0.8; /* Opacidade do placeholder */
 }
 
-input[type="email"]:focus, input[type="password"]:focus {
+input:focus {
     border-color: #007acc;
     outline: none;
 }
 
 /* Botões */
-button {
+.botao {
     background-color: #007acc;
     border: none;
     color: white;
